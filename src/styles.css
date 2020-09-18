@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+button {
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(223, 87%, 63%);
+  border-radius: 30px;
+  box-shadow: 5px 15px 5px 1px hsl(223, 87%, 63%);
+  margin-left: 12px;
+  padding: 13px 65px;
+}
+
+form {
+  color: hsl(223, 100%, 88%);
+  font-size: 16px;
+  opacity: 60%;
+}
+
+footer,
+small {
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+  font-weight: 100;
+  opacity: 90%;
+}
+
+input {
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 30px;
+  opacity: 90%;
+  padding: 13px 25px;
+  width: 400px;
+}
+
+h1 {
+  color: hsl(0, 0%, 59%);
+  font-size: 47px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: hsl(209, 33%, 12%);
+  font-size: 20px;
+}
+
+strong {
+  color: hsl(209, 33%, 12%);
+  font-weight: 600;
+}
