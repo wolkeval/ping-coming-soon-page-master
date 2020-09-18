@@ -1,3 +1,7 @@
+a {
+  color: hsl(223, 87%, 63%);
+  text-decoration: none;
+}
 body {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
@@ -10,7 +14,7 @@ body {
   color: white;
   border: 1px solid hsl(223, 87%, 63%);
   border-radius: 35px;
-  /* box-shadow: 5px 15px 5px 1px hsl(223, 87%, 63%); */
+  box-shadow: 0px 4px 13px 9px hsl(223, 87%, 63%, 0.2);
   font-size: 17px;
   margin-left: 12px;
   padding: 17px 63px;
@@ -27,7 +31,6 @@ small {
   color: hsl(0, 0%, 59%);
   font-size: 12px;
   font-weight: 100;
-  opacity: 90%;
 }
 
 input {
@@ -40,8 +43,15 @@ input {
   width: 375px;
 }
 
+::placeholder {
+  color: hsl(223, 100%, 88%);
+  font-size: 17px;
+  font-weight: 100;
+  opacity: 80%;
+}
+
 header {
-  margin: 70px 0 43px 0px;
+  margin: 87px 0 43px 0px;
 }
 
 h1 {
